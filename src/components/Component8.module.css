@@ -1,0 +1,40 @@
+.productBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+}
+.dallE20250207214708AIcon {
+  position: absolute;
+  width: 85.2%;
+  top: 19px;
+  right: 7.2%;
+  left: 7.6%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 213px;
+  object-fit: cover;
+  z-index: 1;
+}
+.root {
+  height: 250px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  border: 1.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.root[data-property1="Group 176"] .dallE20250207214708AIcon {
+  border-radius: var(--br-xl);
+}
+.root[data-property1="Group 175"] .dallE20250207214708AIcon {
+  top: 24px;
+  right: 8%;
+  left: 6.8%;
+  border-radius: var(--br-xl);
+}

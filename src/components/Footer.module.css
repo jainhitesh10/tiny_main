@@ -1,0 +1,19 @@
+.tinywireLogo1411 {
+  position: absolute;
+  top: 224px;
+  left: 14px;
+  width: 207px;
+  height: 110px;
+  object-fit: cover;
+  z-index: 2;
+}
+.footer {
+  align-self: stretch;
+  height: 318px;
+  position: relative;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-mulish);
+}

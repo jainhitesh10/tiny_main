@@ -1,0 +1,207 @@
+.whatWeOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.whatWeOfferWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-75xl) 0px var(--padding-635xl);
+}
+.img76931Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.img76931Wrapper {
+  height: 596px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 0px 0px;
+  box-sizing: border-box;
+  min-width: 429.8px;
+  max-width: 100%;
+}
+.accessibleEducation {
+  width: 252px;
+  position: relative;
+  line-height: 31.2px;
+  display: inline-block;
+}
+.affordableEasyToUse {
+  margin-bottom: 0px;
+}
+.affordableEasyToUseStem {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.affordableEasyToUseContainer {
+  width: 250px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 166%;
+  font-weight: 600;
+  display: inline-block;
+}
+.durabilityLabels {
+  width: 252px;
+  height: 186px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.component130 {
+  height: 300px;
+  width: 300px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-thistle-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-5xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  text-align: center;
+}
+.learningIntegration {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.integrationDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  min-width: 410px;
+  max-width: 100%;
+}
+.offerDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-74xl-2);
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-xl);
+}
+.offerContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.offerContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-34xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+
+@media screen and (max-width: 1125px) {
+  .whatWeOfferWrapper {
+    padding-left: var(--padding-308xl);
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+
+  .offerDetails {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whatWeOffer {
+    font-size: var(--font-size-10xl);
+  }
+
+  .whatWeOfferWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatWeOfferWrapper {
+    padding-left: var(--padding-144xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+
+  .img76931Wrapper {
+    min-width: 100%;
+  }
+
+  .learningIntegration {
+    gap: var(--gap-mini);
+    flex-wrap: wrap;
+  }
+
+  .integrationDetails {
+    min-width: 100%;
+  }
+
+  .offerDetails {
+    gap: var(--gap-4xl);
+  }
+
+  .offerContentWrapper {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatWeOffer {
+    font-size: var(--font-size-19xl);
+  }
+
+  .img76931Icon {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .img76931Wrapper {
+    flex: 1;
+  }
+
+  .offerDetails {
+    flex-wrap: wrap;
+  }
+}

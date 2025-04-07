@@ -1,0 +1,231 @@
+.mainContentChild {
+  width: 900px;
+  height: 474px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(74, 74, 74, 0.25);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.loginButtonsChild {
+  width: 450px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 40px;
+  display: none;
+}
+.login {
+  width: 41px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 4;
+}
+.loginButton {
+  height: 31px;
+  width: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0px 0px;
+  box-sizing: border-box;
+}
+.signupButtonChild {
+  width: 225px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  border: 1px solid var(--color-mediumorchid);
+  box-sizing: border-box;
+  height: 40px;
+  display: none;
+}
+.signup {
+  width: 53px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 5;
+}
+.signupButton {
+  height: 40px;
+  width: 225px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  border: 1px solid var(--color-mediumorchid);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-66xl);
+  z-index: 4;
+}
+.loginButtons {
+  height: 40px;
+  width: 450px;
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-65xl);
+  gap: var(--gap-79xl);
+  z-index: 3;
+}
+.loginForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-39xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.contactField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nameInput {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.nameField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inputFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.formContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+}
+.submitBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.signup1 {
+  position: absolute;
+  top: 9px;
+  left: 74px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 4;
+}
+.submitButton {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+}
+.or {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-nunito);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  z-index: 3;
+}
+.separator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-69xl) 0px var(--padding-70xl);
+}
+.signupButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.signupButtonContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-12xs) 0px 0px;
+}
+.mainContent {
+  margin: 0;
+  position: absolute;
+  top: 216px;
+  left: 200px;
+  box-shadow: 0px 4px 4px rgba(74, 74, 74, 0.25);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-137xl) var(--padding-14xl)
+    var(--padding-138xl);
+  box-sizing: border-box;
+  gap: var(--gap-38xl);
+  max-width: 100%;
+  z-index: 2;
+}

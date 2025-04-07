@@ -1,0 +1,98 @@
+.tinywires {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.tinywiresWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 224px;
+}
+.image20Icon {
+  height: 876px;
+  width: 1280px;
+  position: absolute;
+  margin: 0 !important;
+  top: -472px;
+  left: -331px;
+  object-fit: cover;
+}
+.empoweringFutureInnovators {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.image20Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.frameParent {
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 514px 331px 574px;
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  flex-shrink: 0;
+  max-width: 105%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.signupPageInner {
+  position: absolute;
+  top: -431px;
+  left: 0px;
+  border-radius: 0px 7208.39px 7208.39px 0px;
+  background-color: var(--color-white);
+  width: 1302px;
+  height: 1007px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+  box-sizing: border-box;
+}
+.signupPage {
+  width: 100%;
+  height: 748px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1050px) {
+  .tinywires {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .tinywires {
+    font-size: var(--font-size-10xl);
+  }
+
+  .empoweringFutureInnovators {
+    font-size: var(--font-size-lgi);
+  }
+}

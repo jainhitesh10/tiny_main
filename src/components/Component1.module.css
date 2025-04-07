@@ -1,0 +1,43 @@
+.component133Child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-300);
+  width: 1063.4px;
+  height: 324.6px;
+}
+.componentInstanceContent {
+  position: absolute;
+  top: 64.9px;
+  left: 960.2px;
+  width: 259.7px;
+  height: 194.8px;
+  object-fit: cover;
+  z-index: 1;
+}
+.componentInstanceContent1 {
+  position: absolute;
+  top: 227.2px;
+  left: 401.9px;
+  width: 259.7px;
+  height: 194.8px;
+  object-fit: cover;
+  z-index: 1;
+}
+.componentInstanceContent2 {
+  position: absolute;
+  top: 162.3px;
+  left: 681px;
+  width: 259.7px;
+  height: 194.8px;
+  object-fit: cover;
+  z-index: 1;
+}
+.component133 {
+  height: 422px;
+  width: 1219.9px;
+  position: relative;
+  max-width: 104%;
+  flex-shrink: 0;
+}

@@ -1,0 +1,36 @@
+.instanceChild {
+  width: 64px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.vectorIcon {
+  width: 20px;
+  position: relative;
+  height: 13px;
+}
+.frameParent {
+  width: 585px;
+  height: 39px;
+  background-color: var(--color-gray-400);
+  border-bottom: 2px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs) var(--padding-8xs);
+  gap: var(--gap-458xl);
+}

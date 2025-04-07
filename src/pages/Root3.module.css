@@ -1,0 +1,49 @@
+.realStoriesReal {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  max-width: 100%;
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 1867px 206px;
+  box-sizing: border-box;
+  gap: 76px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+
+@media screen and (max-width: 1050px) {
+  .root {
+    gap: var(--gap-19xl);
+    padding-left: 103px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .realStoriesReal {
+    font-size: var(--font-size-lg);
+  }
+
+  .root {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .realStoriesReal {
+    font-size: var(--font-size-5xl);
+  }
+}

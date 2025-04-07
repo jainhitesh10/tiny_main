@@ -1,0 +1,37 @@
+.imageIcon {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.johnBeige {
+  margin: 0;
+  width: 127px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.vpCustomerCare {
+  width: 132px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.imageParent {
+  height: 380.4px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-7);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-podkova);
+}

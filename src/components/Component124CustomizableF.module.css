@@ -1,0 +1,28 @@
+.customizableFutureReady {
+  margin: 0;
+  height: 32px;
+  width: 330px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 31.2px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.component124customizableF {
+  width: 330px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-11xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}

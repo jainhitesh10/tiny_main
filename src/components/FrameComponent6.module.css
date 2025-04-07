@@ -1,0 +1,135 @@
+.tinywireLogo3111 {
+  margin-bottom: -49px;
+  width: 247px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.home {
+  margin: 0;
+  height: 32px;
+  width: 77px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.aboutUs {
+  margin: 0;
+  height: 32px;
+  width: 131px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(
+    90deg,
+    #c04dd9,
+    #9b3dbf 30%,
+    #6f4ad9 50%,
+    #2020ad
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+.shop {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(
+    90deg,
+    #c04dd9,
+    #9b3dbf 30%,
+    #6f4ad9 50%,
+    #2020ad
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.blog {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 131px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(
+    90deg,
+    #c04dd9,
+    #9b3dbf 30%,
+    #6f4ad9 50%,
+    #2020ad
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.contact {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 253px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(
+    90deg,
+    #c04dd9,
+    #9b3dbf 30%,
+    #6f4ad9 50%,
+    #2020ad
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.shopLinks {
+  height: 32px;
+  width: 365px;
+  position: relative;
+}
+.homeLinks {
+  height: 32px;
+  width: 691px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+}
+.tinywireLogo3111Parent {
+  height: 90px;
+  width: 1280px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-294xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-audiowide);
+}
+.rootInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-126xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}

@@ -1,0 +1,47 @@
+.teamMemberCardParent {
+  height: 380.4px;
+  width: 1248.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-59xl-4);
+}
+.frameParent {
+  height: 380.4px;
+  width: 1924px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-59xl-4);
+}
+.frameGroup {
+  height: 380.4px;
+  width: 3928px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  flex-shrink: 0;
+}
+.component112 {
+  width: 1920px;
+  height: 438.4px;
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl-8) 0px var(--padding-10xl-2) var(--padding-12xl-2);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-podkova);
+}

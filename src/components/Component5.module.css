@@ -1,0 +1,88 @@
+.integratedLearning {
+  width: 200px;
+  position: relative;
+  line-height: 31.2px;
+  display: inline-block;
+}
+.skillsLabels {
+  width: 225px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-6xl);
+  box-sizing: border-box;
+}
+.seamlessTechIntegration {
+  margin-bottom: 0px;
+}
+.bridgesTheory {
+  margin-bottom: 0px;
+}
+.seamlessTechIntegrationFor {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.seamlessTechIntegrationContainer {
+  width: 250px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 166%;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+}
+.root {
+  height: 300px;
+  width: 300px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightblue-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-6xl) var(--padding-70xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: justify;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+.root[data-property1="Variant7"] {
+  background-color: var(--color-darkseagreen);
+  padding: var(--padding-8xl) var(--padding-5xl) var(--padding-48xl);
+  gap: var(--gap-2xs);
+}
+.root[data-property1="Frame 427318972"] {
+  background-color: var(--color-pink);
+  padding: var(--padding-8xl) var(--padding-6xl) var(--padding-27xl);
+  gap: var(--gap-2xs);
+}
+.root[data-property1="Variant7"] .skillsLabels {
+  width: 239px;
+  padding: 0px 0px 0px var(--padding-xs);
+}
+.root[data-property1="Frame 427318972"] .skillsLabels {
+  width: 245px;
+  padding: 0px 0px 0px var(--padding-9xs);
+}
+.root[data-property1="Variant7"] .integratedLearning {
+  width: 227px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.root[data-property1="Frame 427318972"] .integratedLearning {
+  width: 241px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.root[data-property1="Variant7"] .seamlessTechIntegrationContainer {
+  font-family: var(--font-mulish);
+}

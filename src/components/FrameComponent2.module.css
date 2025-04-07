@@ -1,0 +1,25 @@
+.enterEmailOr {
+  width: 194px;
+  position: relative;
+  display: inline-block;
+}
+.enterEmailOrPhoneNumberWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-gray-500);
+  border-bottom: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 373px;
+  height: 39px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xs) var(--padding-8xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-open-sans);
+}

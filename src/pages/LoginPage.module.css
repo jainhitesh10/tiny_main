@@ -1,0 +1,307 @@
+.tinywires {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.tinywiresWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 211px 0px 212px;
+}
+.image20Icon {
+  height: 876px;
+  width: 1280px;
+  position: absolute;
+  margin: 0 !important;
+  top: -485px;
+  left: -338px;
+  object-fit: cover;
+}
+.empoweringFutureInnovators {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.image20Parent {
+  width: 626px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.frameParent {
+  width: 1366px;
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 523px 338px 561px;
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  max-width: 105%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.loginPageInner {
+  position: absolute;
+  top: -431px;
+  left: 0px;
+  border-radius: 0px 7208.39px 7208.39px 0px;
+  background-color: var(--color-white);
+  width: 1302px;
+  height: 1007px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 900px;
+  height: 466px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(74, 74, 74, 0.25);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  width: 450px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 40px;
+  display: none;
+}
+.loginFormChild {
+  width: 225px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  height: 40px;
+  display: none;
+}
+.login {
+  width: 36px;
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+.loginForm {
+  height: 40px;
+  width: 225px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-75xl) var(--padding-4xs);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.signup {
+  width: 47px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 4;
+}
+.signUpOption {
+  height: 31px;
+  width: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0px 0px;
+  box-sizing: border-box;
+  color: var(--color-darkslategray-100);
+}
+.rectangleGroup {
+  height: 40px;
+  width: 451px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 78px;
+  z-index: 3;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-48xl) var(--padding-mini);
+}
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 41px;
+}
+.buttonShape {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.login1 {
+  position: absolute;
+  top: 8px;
+  left: 81px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 4;
+}
+.loginButton {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+}
+.or {
+  position: relative;
+  z-index: 3;
+}
+.devicongoogle {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.googleLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-10xs);
+}
+.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.separatorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-2xl) 0px var(--padding-xl);
+}
+.loginButtonParent {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px 0px var(--padding-12xs);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+}
+.rectangleParent {
+  position: absolute;
+  top: 230px;
+  left: 201px;
+  box-shadow: 0px 4px 4px rgba(74, 74, 74, 0.25);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 49px 158px var(--padding-3xl) var(--padding-138xl);
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+  z-index: 2;
+}
+.loginPage {
+  width: 100%;
+  height: 748px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+
+@media screen and (max-width: 1050px) {
+  .tinywires {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .tinywires {
+    font-size: var(--font-size-10xl);
+  }
+
+  .empoweringFutureInnovators {
+    font-size: var(--font-size-lgi);
+  }
+}

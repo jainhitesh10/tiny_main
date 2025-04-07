@@ -1,0 +1,109 @@
+.frameChild {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: -100px;
+  bottom: 0px;
+  box-shadow: 47.4px -47.4px 47.4px rgba(188, 188, 188, 0.1) inset,
+    -47.4px 47.4px 47.4px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(94.9px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkturquoise);
+  z-index: 0;
+}
+.frameItem {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -100px;
+  right: 0px;
+  left: 0px;
+  box-shadow: 47.4px -47.4px 47.4px rgba(188, 188, 188, 0.1) inset,
+    -47.4px 47.4px 47.4px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(94.9px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightblue-200);
+  z-index: 1;
+}
+.frameInner {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  bottom: 0px;
+  left: -100px;
+  box-shadow: 47.4px -47.4px 47.4px rgba(188, 188, 188, 0.1) inset,
+    -47.4px 47.4px 47.4px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(94.9px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-palegoldenrod);
+  z-index: 2;
+}
+.rectangleDiv {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0px;
+  bottom: -100px;
+  left: 0px;
+  box-shadow: 47.4px -47.4px 47.4px rgba(188, 188, 188, 0.1) inset,
+    -47.4px 47.4px 47.4px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(94.9px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightsalmon);
+  z-index: 3;
+}
+.rectangleIcon {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  z-index: 4;
+}
+.rectangleParent {
+  width: 200px;
+  height: 200px;
+  margin: 0 !important;
+  position: absolute;
+  top: 400px;
+  left: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.ourSuccessStories {
+  margin: 0;
+  width: 185px;
+  height: 147px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.component138 {
+  height: 1000px;
+  width: 1266px;
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-408xl) var(--padding-521xl) var(--padding-407xl)
+    var(--padding-522xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}

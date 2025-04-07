@@ -1,0 +1,480 @@
+.empoweringFutureInnovators {
+  margin: 0;
+  position: absolute;
+  top: 288px;
+  left: 430px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.component88Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.page {
+  align-self: stretch;
+  height: 334px;
+  position: relative;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-10xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+.frameChild {
+  height: 45px;
+  width: 225.6px;
+  position: relative;
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.shopNow {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.02em;
+  line-height: 25.2px;
+  font-family: var(--font-open-sans);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 2px solid var(--color-darkslategray-100);
+  padding: var(--padding-10xs) var(--padding-10xs) 11px var(--padding-9xs);
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent:hover {
+  background-color: rgba(112, 112, 112, 0.09);
+  border: 2px solid #707070;
+  box-sizing: border-box;
+}
+.heroCallToAction {
+  width: 229.6px;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 48px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  border: 1.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.categories {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.iconPair {
+  width: 17px;
+  height: 10px;
+  position: relative;
+  border-radius: var(--br-xl);
+  z-index: 1;
+}
+.filterIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0px 0px;
+}
+.rectangleGroup {
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  border: 1.8px solid var(--color-darkslategray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-3xl) var(--padding-4xs)
+    var(--padding-22xl);
+  gap: var(--gap-11xl);
+}
+.sortBy {
+  position: relative;
+  letter-spacing: 0.02em;
+  z-index: 1;
+}
+.sortIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0px 0px;
+}
+.rectangleContainer {
+  align-self: stretch;
+  height: 48px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver-200);
+  border: 1.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-7xl) var(--padding-3xs) 61px;
+  gap: var(--gap-xl);
+}
+.sortDropdown {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 153px;
+}
+.allFilters {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-open-sans);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  z-index: 1;
+}
+.claritysortByLineIcon {
+  width: 30px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.claritysortByLineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+}
+.groupButton {
+  cursor: pointer;
+  border: 1.8px solid var(--color-darkslategray-100);
+  padding: var(--padding-8xs) var(--padding-3xl) var(--padding-6xs)
+    var(--padding-22xl);
+  background-color: var(--color-silver-200);
+  flex: 0.7166;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  min-width: 153px;
+  min-height: 48px;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.productFilter {
+  width: 807px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+}
+.productSeparator {
+  position: relative;
+}
+.productInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.product {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 230px;
+  max-width: 250px;
+}
+.productGrid {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-23xl);
+}
+.component113Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-12xs) 0px var(--padding-11xs);
+}
+.roverInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs);
+  font-size: var(--font-size-xs);
+}
+.starIcon {
+  height: 19px;
+  width: 20px;
+  position: relative;
+}
+.roverStars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.roverRatings {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs);
+}
+.arduinoSmartCarKitParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.component116Wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-4xs) 0px var(--padding-9xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.productPair {
+  flex: 0.9731;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px var(--padding-6xs) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 239px;
+  max-width: 260px;
+}
+.roboticsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-10xs);
+}
+.roboticsCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 230px;
+  max-width: 250px;
+}
+.productRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.productGrid1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.heroContent {
+  width: 1154px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 66px;
+  max-width: 100%;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 51px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 276.4px;
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1125px) {
+  .heroContent {
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .productGrid {
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(195px, 338px));
+  }
+
+  .productRow {
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(195px, 338px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .empoweringFutureInnovators {
+    font-size: 23px;
+  }
+
+  .shopNow {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-xl);
+  }
+
+  .categories {
+    font-size: var(--font-size-lg);
+  }
+
+  .sortBy {
+    font-size: var(--font-size-lg);
+  }
+
+  .allFilters {
+    font-size: var(--font-size-lg);
+  }
+
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+
+  .productGrid {
+    grid-template-columns: minmax(195px, 1fr);
+  }
+
+  .productRow {
+    grid-template-columns: minmax(195px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sortDropdown {
+    flex: 1;
+  }
+
+  .groupButton {
+    flex: 1;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+
+  .productGrid {
+    gap: var(--gap-2xl);
+  }
+
+  .productRow {
+    gap: var(--gap-2xl);
+  }
+
+  .heroContent {
+    gap: var(--gap-base);
+  }
+
+  .hero {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+
+  .root {
+    gap: var(--gap-base);
+  }
+}

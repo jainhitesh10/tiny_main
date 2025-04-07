@@ -1,0 +1,27 @@
+.component136Icon {
+  position: absolute;
+  top: 51px;
+  left: 627px;
+  width: 584px;
+  height: 338px;
+}
+.componentParent {
+  height: 414px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.componentParentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl) var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-audiowide);
+}

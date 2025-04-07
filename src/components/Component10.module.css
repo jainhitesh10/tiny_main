@@ -1,0 +1,36 @@
+.bookCallBackground {
+  height: calc(100% + 3px);
+  width: calc(100% + 3px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: -3px;
+  bottom: -3px;
+  left: 0px;
+  border-radius: var(--br-6xl);
+  border: 3px solid var(--color-plum);
+  box-sizing: border-box;
+  z-index: 0;
+}
+.bookACall {
+  width: 121.3px;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.component110 {
+  height: 29.6px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-8xs-6);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}

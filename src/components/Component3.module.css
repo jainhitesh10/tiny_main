@@ -1,0 +1,61 @@
+.exploreCreateInnovate {
+  margin: 0;
+  width: 680px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.discoverOurCuttingEdge {
+  margin: 0;
+  width: 545px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 148%;
+  font-weight: 400;
+  font-family: var(--font-sans-serif-collection);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.exploreCreateInnovateParent {
+  height: 304px;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-157xl);
+  box-sizing: border-box;
+}
+.nestedComponent {
+  height: 414px;
+  width: 2005px;
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-91xl) var(--padding-1432xl);
+  box-sizing: border-box;
+}
+.component73 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 2005px;
+  height: 414px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-audiowide);
+}

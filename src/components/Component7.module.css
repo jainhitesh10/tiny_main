@@ -1,0 +1,65 @@
+.shape {
+  position: absolute;
+  height: 82.47%;
+  width: 70.8%;
+  top: 17.53%;
+  right: 16.81%;
+  bottom: 0%;
+  left: 12.39%;
+  border-radius: 50%;
+  background-color: var(--color-darkgray);
+}
+.dallE20250208013644AIcon {
+  position: absolute;
+  width: 40.35%;
+  top: 0px;
+  right: 32.04%;
+  left: 27.61%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 228px;
+  object-fit: cover;
+}
+.dallE20250208013915AIcon {
+  position: absolute;
+  width: 40.35%;
+  top: 228px;
+  right: 59.65%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 228px;
+  object-fit: cover;
+}
+.dallE20250207214708AIcon {
+  position: absolute;
+  width: 45.13%;
+  top: 215px;
+  right: 0%;
+  left: 54.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 255px;
+  object-fit: cover;
+}
+.shapeParent {
+  margin-left: -62px;
+  width: 565px;
+  position: relative;
+  height: 485px;
+}
+.component88 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-gainsboro-100);
+  width: 1266px;
+  height: 334px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-85xl) 0px 0px;
+  box-sizing: border-box;
+}

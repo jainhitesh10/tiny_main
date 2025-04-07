@@ -1,0 +1,18 @@
+.icon {
+  position: absolute;
+  top: 65px;
+  left: 796px;
+  border-radius: var(--br-xl);
+  width: 398.2px;
+  height: 224px;
+  object-fit: cover;
+}
+.component135 {
+  height: 368px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 2;
+}

@@ -1,0 +1,27 @@
+.enterYourFull {
+  width: 134px;
+  border: none;
+  outline: none;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+}
+.enterYourFullNameWrapper {
+  width: 585px;
+  height: 39px;
+  background-color: var(--color-gray-400);
+  border-bottom: 2px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xs) var(--padding-8xs);
+  z-index: 2;
+}

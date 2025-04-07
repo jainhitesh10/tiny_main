@@ -1,0 +1,390 @@
+.contactOurSales {
+  margin: 0;
+  width: 403px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.emailSupport {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-241xl) 0px var(--padding-664xl);
+  font-size: var(--font-size-5xl);
+}
+.name {
+  width: 95px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-11xl);
+  background-color: transparent;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+.formFieldLabels {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 3px solid var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px var(--padding-8xs);
+}
+.eMail {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.formFieldNames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+}
+.messageField {
+  border: 3px solid var(--color-gray-100);
+  background-color: transparent;
+  height: 381px;
+  width: auto;
+  outline: none;
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-6xl);
+  font-family: var(--font-open-sans);
+  font-weight: 600;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-100);
+}
+.formFields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-55xl);
+  min-width: 353px;
+  max-width: 100%;
+}
+.emailUsWe {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 100%;
+}
+.emailDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tinywirestechgmailcom {
+  width: 313px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+}
+.emailInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.callUs {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 800;
+  font-family: inherit;
+}
+.phoneNumber1 {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs);
+  box-sizing: border-box;
+}
+.monFri900Am {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.phoneTime {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-xs);
+}
+.p {
+  margin: 0;
+}
+.spacer {
+  width: 186px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  color: var(--color-darkslategray-100);
+}
+.phoneAvailability {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.phoneDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.phoneInfo {
+  width: 251px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-mini);
+  box-sizing: border-box;
+}
+.addressContainer {
+  width: 173px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-mini);
+  box-sizing: border-box;
+}
+.infoDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.infoContainer {
+  width: 378px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactBackgroundIcon {
+  align-self: stretch;
+  height: 381px;
+  position: relative;
+  border-radius: var(--br-sm-6);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-108xl);
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+.formContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-55xl);
+  max-width: 100%;
+}
+.contactForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-18xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.salesHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.sales {
+  width: 1248.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-28xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-8xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+
+@media screen and (max-width: 1200px) {
+  .emailSupport {
+    padding-left: var(--padding-322xl);
+    padding-right: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+
+  .formContainer {
+    gap: var(--gap-18xl);
+  }
+
+  .sales {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contactOurSales {
+    font-size: var(--font-size-3xl);
+  }
+
+  .emailSupport {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .name {
+    font-size: var(--font-size-lg);
+  }
+
+  .eMail {
+    font-size: var(--font-size-lg);
+  }
+
+  .formFields {
+    gap: var(--gap-lg);
+  }
+
+  .callUs {
+    font-size: var(--font-size-lgi);
+  }
+
+  .contactInfo {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .emailSupport {
+    padding-left: var(--padding-151xl);
+    padding-right: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+
+  .formFieldNames {
+    gap: var(--gap-7xl);
+  }
+
+  .formFields {
+    gap: var(--gap-18xl);
+    min-width: 100%;
+  }
+
+  .contactInfo {
+    gap: var(--gap-44xl);
+    min-width: 100%;
+  }
+
+  .formContainer {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .name {
+    font-size: var(--font-size-5xl);
+  }
+
+  .eMail {
+    font-size: var(--font-size-5xl);
+  }
+
+  .infoDetails {
+    flex: 1;
+  }
+
+  .contactInfo {
+    flex: 1;
+  }
+
+  .formContainer {
+    flex-wrap: wrap;
+  }
+}

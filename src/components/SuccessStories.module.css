@@ -1,0 +1,26 @@
+.successStories {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-sm) var(--padding-29xl) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+
+@media screen and (max-width: 1125px) {
+  .successStories {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .successStories {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
