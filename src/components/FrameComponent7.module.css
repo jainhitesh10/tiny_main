@@ -24,4 +24,5 @@
   font-size: var(--font-size-31xl);
   color: var(--color-darkslategray-100);
   font-family: var(--font-audiowide);
+  margin-bottom: 150px;
 }

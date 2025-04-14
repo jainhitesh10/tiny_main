@@ -30,10 +30,11 @@
   justify-content: flex-start;
   padding: 0px 0px var(--padding-157xl);
   box-sizing: border-box;
+  margin-right: 50px;
 }
 .nestedComponent {
   height: 414px;
-  width: 2005px;
+  width: px;
   background-color: var(--color-gray-400);
   overflow: hidden;
   flex-shrink: 0;
@@ -48,7 +49,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 2005px;
+  margin-left: -1300px;
+  width: 1650px;
   height: 414px;
   display: flex;
   flex-direction: row;
@@ -58,4 +60,10 @@
   font-size: var(--font-size-31xl);
   color: var(--color-darkslategray-100);
   font-family: var(--font-audiowide);
+}
+
+
+.imgc{
+  height: 700px;
+  margin-top: -100px;
 }

@@ -237,6 +237,7 @@ FrameComponent1.propTypes = {
   property1: PropTypes.number,
 
   /** Style props */
+  blogcol: PropTypes.string,
   frameDivBackgroundColor: PropTypes.string,
   frameDivMarginLeft: PropTypes.string,
   frameDivMarginBottom: PropTypes.string,

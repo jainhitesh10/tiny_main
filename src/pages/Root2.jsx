@@ -52,7 +52,7 @@ const Root2 = () => {
           aboutUsMargin="0"
           aboutUsFontWeight="400"
           aboutUsColor="unset"
-          aboutUsBackground="linear-gradient(90deg, #c04dd9, #9b3dbf 30%, #6f4ad9 50%, #2020ad)"
+          aboutUsBackground="inear-gradient(90deg, #c04dd9, #9b3dbf, #6f4ad9, #2020ad);"
           aboutUsWebkitBackgroundClip="unset"
           aboutUsWebkitTextFillColor="unset"
           shopMargin="0"
@@ -68,6 +68,7 @@ const Root2 = () => {
           blogWebkitBackgroundClip="unset"
           blogWebkitTextFillColor="unset"
           blogColor="unset"
+          
           contactMargin="0"
           contactFontWeight="400"
           onContactTextClick={onContactTextClick}

@@ -1,11 +1,12 @@
 .integratedLearning {
-  width: 200px;
+  width: 300px;
   position: relative;
   line-height: 31.2px;
   display: inline-block;
+  font-size: 25px;
 }
 .skillsLabels {
-  width: 225px;
+  width: 300px;
   height: 32px;
   display: flex;
   flex-direction: row;
@@ -27,7 +28,7 @@
   padding-left: var(--padding-lgi);
 }
 .seamlessTechIntegrationContainer {
-  width: 250px;
+  width: 280px;
   position: relative;
   font-size: var(--font-size-sm);
   letter-spacing: 0.02em;
@@ -35,10 +36,14 @@
   font-weight: 600;
   text-align: left;
   display: inline-block;
+  font-size: 17px;
+  margin-left: 18px;
+  margin-top: 10px
 }
 .root {
-  height: 300px;
-  width: 300px;
+  height: 380px;
+  width: 380px;
+  margin-left: -15px;
   border-radius: var(--br-xl);
   background-color: var(--color-lightblue-300);
   overflow: hidden;

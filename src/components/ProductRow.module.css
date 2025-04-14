@@ -61,6 +61,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-19xl);
+
 }
 .productRow {
   flex: 0.9731;
@@ -72,7 +73,7 @@
   box-sizing: border-box;
   gap: var(--gap-xs);
   min-width: 239px;
-  max-width: 260px;
+  max-width: 300px;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray-100);

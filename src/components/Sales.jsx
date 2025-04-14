@@ -1,7 +1,82 @@
 import PropTypes from "prop-types";
+import { useState } from "react";
 import styles from "./Sales.module.css";
 
 const Sales = ({ className = "" }) => {
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [errors, setErrors] = useState({});
+  const [formStatus, setFormStatus] = useState("");
+
+  const validateEmail = (email) =>
+    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+  const validatePhone = (phone) =>
+    /^\+?\d{10,15}$/.test(phone);
+
+  const handlePhoneChange = (e) => {
+    const value = e.target.value;
+    setPhone(value);
+
+    if (value && !validatePhone(value)) {
+      setErrors((prev) => ({
+        ...prev,
+        phone: "❌ Invalid phone number",
+      }));
+    } else {
+      setErrors((prev) => {
+        const newErrors = { ...prev };
+        delete newErrors.phone;
+        return newErrors;
+      });
+    }
+  };
+
+  const handleEmailChange = (e) => {
+    const value = e.target.value;
+    setEmail(value);
+
+    if (value && !validateEmail(value)) {
+      setErrors((prev) => ({
+        ...prev,
+        email: "❌ Invalid email address",
+      }));
+    } else if (value) {
+      setErrors((prev) => ({
+        ...prev,
+        email: "✅ Valid email",
+      }));
+    } else {
+      setErrors((prev) => {
+        const newErrors = { ...prev };
+        delete newErrors.email;
+        return newErrors;
+      });
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newErrors = {};
+    setFormStatus("");
+
+    if (!validateEmail(email)) {
+      newErrors.email = "❌ Invalid email address";
+    }
+
+    if (!validatePhone(phone)) {
+      newErrors.phone = "❌ Invalid phone number";
+    }
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length === 0) {
+      setFormStatus("✅ Thank you! Your message has been sent.");
+    } else {
+      setFormStatus("⚠️ Please fix the errors above before submitting.");
+    }
+  };
+
   return (
     <div className={[styles.sales, className].join(" ")}>
       <div className={styles.salesHeader}>
@@ -10,7 +85,7 @@ const Sales = ({ className = "" }) => {
           <h3 className={styles.callUs}>Email Support</h3>
         </div>
         <div className={styles.contactForm}>
-          <div className={styles.formContainer}>
+          <form className={styles.formContainer} onSubmit={handleSubmit}>
             <div className={styles.formFields}>
               <div className={styles.formFieldNames}>
                 <div className={styles.formFieldLabels}>
@@ -21,10 +96,38 @@ const Sales = ({ className = "" }) => {
                   />
                 </div>
                 <div className={styles.formFieldLabels}>
-                  <h2 className={styles.eMail}>E-mail</h2>
+                  <input
+                    className={styles.eMail}
+                    placeholder="Email"
+                    type="text"
+                    value={email}
+                    onChange={handleEmailChange}
+                  />
+                  {errors.email && (
+                    <div
+                      style={{
+                        color: errors.email.startsWith("✅") ? "green" : "red",
+                        fontSize: "12px",
+                        marginTop: "4px",
+                      }}
+                    >
+                      {errors.email}
+                    </div>
+                  )}
                 </div>
                 <div className={styles.formFieldLabels}>
-                  <h2 className={styles.eMail}>Phone Number</h2>
+                  <input
+                    className={styles.Phoneno}
+                    placeholder="Phone No."
+                    type="text"
+                    value={phone}
+                    onChange={handlePhoneChange}
+                  />
+                  {errors.phone && (
+                    <div style={{ color: "red", fontSize: "12px", marginTop: "4px" }}>
+                      {errors.phone}
+                    </div>
+                  )}
                 </div>
               </div>
               <textarea
@@ -34,6 +137,7 @@ const Sales = ({ className = "" }) => {
                 cols={27}
               />
             </div>
+
             <div className={styles.contactInfo}>
               <div className={styles.infoContainer}>
                 <div className={styles.infoDetails}>
@@ -73,14 +177,54 @@ const Sales = ({ className = "" }) => {
                   </div>
                 </div>
               </div>
-              <img
-                className={styles.contactBackgroundIcon}
-                loading="lazy"
-                alt=""
-                src="/rectangle-2886@2x.png"
-              />
+              <div className="imgiconn">
+                <img
+                  className={styles.contactBackgroundIcon}
+                  loading="lazy"
+                  alt=""
+                  src="/rectangle-2886@2x.png"
+                />
+              </div>
             </div>
-          </div>
+
+            <button
+              type="submit"
+              className={styles.submitBtn}
+              style={{
+                padding: "10px 20px",
+                backgroundColor: "#007bff",
+                color: "#fff",
+                border: "none",
+                borderRadius: "6px",
+                fontSize: "14px",
+                cursor: "pointer",
+                marginTop: "1rem",
+              }}
+            >
+              Submit
+            </button>
+
+            {/* NEW FORM STATUS DIV HERE */}
+            <div style={{ marginTop: "12px", minHeight: "24px" }}>
+              {formStatus && (
+                <div
+                  style={{
+                    color: formStatus.includes("✅") ? "green" : "red",
+                    backgroundColor: formStatus.includes("✅") ? "#e6ffed" : "#ffe6e6",
+                    border: formStatus.includes("✅")
+                      ? "1px solid #a3d9a5"
+                      : "1px solid #ffb3b3",
+                    padding: "10px",
+                    borderRadius: "8px",
+                    textAlign: "center",
+                    fontSize: "14px",
+                  }}
+                >
+                  {formStatus}
+                </div>
+              )}
+            </div>
+          </form>
         </div>
       </div>
     </div>

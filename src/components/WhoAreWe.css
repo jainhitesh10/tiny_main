@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  height: 500px;
+}
+
+.ttext{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.WAW{
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 450px;
+  width: 1000px;
+}
+
+.WAW1{
+  font-size: 60px;
+  margin-top: 20px;
+  color: #4a4a4a;
+  height: 80px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.WAW2{
+  text-align: justify;
+  color: #4a4a4a;
+  font-size: 23px;
+  margin-top: 30px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.7;
+}
+
+.img{
+  border-color: black;
+  height: 300px;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.imgg1{
+  height: 300px;
+  width: 500px;
+  border-radius: 20px; /* Soft rounded corners */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}

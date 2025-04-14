@@ -19,7 +19,7 @@
   font-size: var(--font-size-5xl);
 }
 .name {
-  width: 95px;
+  width: 764px;
   border: none;
   outline: none;
   font-weight: 500;
@@ -29,7 +29,7 @@
   position: relative;
   letter-spacing: 0.02em;
   color: var(--color-gray-100);
-  text-align: center;
+  /* text-align: center; */
   display: inline-block;
   padding: 0;
 }
@@ -45,12 +45,34 @@
   padding: var(--padding-3xs) 0px var(--padding-8xs);
 }
 .eMail {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  letter-spacing: 0.02em;
+  width: 764px;
+  border: none;
+  outline: none;
   font-weight: 500;
-  font-family: inherit;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-11xl);
+  background-color: transparent;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  /* text-align: center; */
+  display: inline-block;
+  padding: 0;
+}
+.Phoneno {
+  width: 764px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-11xl);
+  background-color: transparent;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  /* text-align: center; */
+  display: inline-block;
+  padding: 0;
 }
 .formFieldNames {
   align-self: stretch;
@@ -133,10 +155,15 @@
   margin: 0;
   flex: 1;
   position: relative;
-  font-size: inherit;
+  /* font-size: inherit; */
   letter-spacing: 0.02em;
   font-weight: 800;
   font-family: inherit;
+  font-size: 25px;
+}
+
+.emailSupport{
+  margin-left: 250px;
 }
 .phoneNumber1 {
   width: 120px;
@@ -227,6 +254,8 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
+
 .contactBackgroundIcon {
   align-self: stretch;
   height: 381px;
@@ -237,6 +266,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .contactInfo {
   display: flex;
   flex-direction: column;
@@ -247,6 +277,8 @@
   font-size: var(--font-size-5xl);
   color: var(--color-darkslategray-100);
   font-family: var(--font-open-sans);
+  margin-left: 30px;
+  margin-right: -30px;
 }
 .formContainer {
   flex: 1;
@@ -278,9 +310,10 @@
   justify-content: flex-start;
   flex-shrink: 0;
   max-width: 100%;
+
 }
 .sales {
-  width: 1248.7px;
+  width: 1500px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

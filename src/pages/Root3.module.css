@@ -3,6 +3,7 @@
   display: inline-block;
   font-weight: 600;
   max-width: 100%;
+  margin-left: 3;
 }
 .root {
   width: 100%;

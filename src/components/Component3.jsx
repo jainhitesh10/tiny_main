@@ -18,6 +18,10 @@ const Component3 = ({ className = "", property1 = "Group 159" }) => {
           </h1>
         </div>
       </div>
+      <div className={styles.immg}>
+        <img src="../../public/dall-e-20250208-013915--a-realistic-illustration-of-a-small--fourwheeled-autonomous-robot-car-with-a-black-chassis-and-yellow-wheels-the-car-includes-an-ultrasonic-sensor-mremovebg-3@2x.png" // Replace with your actual image path
+          alt="Educational Robot Kit" className={styles.imgc} />
+      </div>
     </div>
   );
 };

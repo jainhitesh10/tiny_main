@@ -6,7 +6,6 @@ const FrameComponent7 = ({ className = "" }) => {
   return (
     <section className={[styles.componentParentWrapper, className].join(" ")}>
       <div className={styles.componentParent}>
-        <img className={styles.component136Icon} loading="lazy" alt="" />
         <Component3 property1="Variant3" />
       </div>
     </section>

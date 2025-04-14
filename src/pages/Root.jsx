@@ -32,7 +32,7 @@ const Root = () => {
       <header className={styles.homeInstance}>
         <FrameComponent1
           property1="Variant2"
-          tinywireLogo3111="/tinywire-logo-311-1@2x.png"
+          tinywireLogo3111="/tinywire-logo-311-1@2x.png" 
           onShopTextClick={onShopTextClick}
           onBlogTextClick={onBlogTextClick}
           onContactTextClick={onContactTextClick}
