@@ -68,7 +68,6 @@ const Root2 = () => {
           blogWebkitBackgroundClip="unset"
           blogWebkitTextFillColor="unset"
           blogColor="unset"
-          
           contactMargin="0"
           contactFontWeight="400"
           onContactTextClick={onContactTextClick}
